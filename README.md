@@ -35,6 +35,15 @@ src/
 pip install -r requirements.txt
 ```
 
+## .env File
+To connect to the mongoDB database, include a `.env` file in your project root with the following configurations:
+```
+DBNAME=
+HOST=
+USER_NAME=
+PASSWORD=
+```
+
 ## Usage
 ```bash
 python src/main.py
